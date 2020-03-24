@@ -5,3 +5,9 @@
 正的图片，界面效果如图15-7所示。试使用虚拟代理模式设计并实现该图片查看器。
 （注：可以结合多线程机制，使用一个线程显示小图标，同时启动另一个线程在后台加
 载原图。）
+
+静态代理
+ClothFactory、NikeClothFactory、ProxyClothFactroy构成
+动态代理
+1.Invocation实现invocation的invoke方法进行回调，将被代理类交给返回代理类的对象。
+2.Proxy.newInstance创建代理类
